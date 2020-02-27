@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.8.0/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation <img src="img/logo.png"> </a>-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#" style = "font-family:georgia,garamond,serif;font-size:25px;font-style:italic;"><b>Abhishek Singh Pawar</b></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+	data-target="#navbar-Responsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbar-Responsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item ">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="#"> About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Connect</a>
+			</li>
+		</ul>
+	</div>	
+
+
+</div>
+</nav>
+
+<div class="container-fluid padding">
+<div class="row padding	" align="center">
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6 ">
+		<a href="#opening"><i class="fab fa-cuttlefish fa-5x" color="black"></i></br>C</a>
+		</div>
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6">
+		<a href="https://www.google.com"><i class="fab fa-python fa-5x"></i></br>Python</a>
+		</div>
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6">
+		<a href="bootstrap.html"><i class="fab fa-bootstrap fa-5x" color="black"></i></i></br>Bootstrap</a>
+		</div>
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6">
+		<a href="r.html"><i class="fab fa-r-project fa-5x"></i></br>R</a>
+		</div>
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6">
+		<a href="tableau.html "><i class="fas fa-chart-area fa-5x" color="black"></i></br>Tableau</a>
+		</div>
+		<div class="col-xs-6 col-lg-2 col-md-4 col-sm-6">
+		<a href="https://www.google.com"><i class="fab fa-css3 fa-5x"></i></br>CSS</a>
+		</div>	
+</div>
+</div>
+
+<!--- Me
+<!--- Image Slider -->
+
+<p align="justify">The days of monolithic applications are coming to a close. Today, more logic is getting distributed throughout the Internet. Mobile devices are becoming more powerful every day, particularly with the onset of 5G network capabilities. The Internet of Things continues to embed itself into the worldwide digital ecosystem. Edge computing puts more computing power on the client side, thus allowing distributed devices to contain intelligence that goes far beyond just presenting data in a UI. Smart devices – phones, cameras, watches, home appliances – are making decisions traditionally found in application logic that resides in a server-side computer.
+
+As client devices become more powerful, they can decide which server-side services they want to use. For example, it’s entirely feasible for a client device to log in to an application domain using any one of some authentication services – Facebook, Google or LinkedIn, for example. Typically such services are represented by APIs.
+
+The real world ramifications are significant, particularly around testing. Modern load testing in a distributed environment is no longer about firing up a bunch of virtual users to exercise web pages. The game has changed. More is required. Load testing in the world of modern, highly distributed applications is all about APIs. Hence, load testing APIs involves a way of thinking that is different from the reasoning that goes into exercising a web page. It’s a different way of doing business.
+
+Allow me to elaborate.
+
+Load Testing APIs: Goodbye HTML, Hello REST
+The way most APIs expose themselves for use by consumers is via REST. REST (Representational State Transfer) is an architecture that uses the essential request/response features of HTTP to send data to systems for processing and transformation. REST is about working with data at a lower level of exchange that does not require the graphical intermediation that a web browser provides.
+
+In traditional web page applications, work is done by inputting data into HTML elements such as text boxes, checkboxes, options, and dropdowns. Then, once data is entered, a user typically clicks a button to send the data onto a URL as an HTTP request. The receiving URL gets the data, processes it and then returns a response, typically in HTML when rendering a full web page.
+
+Figure 1 below shows a simple login page that illustrates the request/response process using web pages in a browser.The days of monolithic applications are coming to a close. Today, more logic is getting distributed throughout the Internet. Mobile devices are becoming more powerful every day, particularly with the onset of 5G network capabilities. The Internet of Things continues to embed itself into the worldwide digital ecosystem. Edge computing puts more computing power on the client side, thus allowing distributed devices to contain intelligence that goes far beyond just presenting data in a UI. Smart devices – phones, cameras, watches, home appliances – are making decisions traditionally found in application logic that resides in a server-side computer.
+
+As client devices become more powerful, they can decide which server-side services they want to use. For example, it’s entirely feasible for a client device to log in to an application domain using any one of some authentication services – Facebook, Google or LinkedIn, for example. Typically such services are represented by APIs.
+
+The real world ramifications are significant, particularly around testing. Modern load testing in a distributed environment is no longer about firing up a bunch of virtual users to exercise web pages. The game has changed. More is required. Load testing in the world of modern, highly distributed applications is all about APIs. Hence, load testing APIs involves a way of thinking that is different from the reasoning that goes into exercising a web page. It’s a different way of doing business.
+
+Allow me to elaborate.
+
+Load Testing APIs: Goodbye HTML, Hello REST
+The way most APIs expose themselves for use by consumers is via REST. REST (Representational State Transfer) is an architecture that uses the essential request/response features of HTTP to send data to systems for processing and transformation. REST is about working with data at a lower level of exchange that does not require the graphical intermediation that a web browser provides.
+
+In traditional web page applications, work is done by inputting data into HTML elements such as text boxes, checkboxes, options, and dropdowns. Then, once data is entered, a user typically clicks a button to send the data onto a URL as an HTTP request. The receiving URL gets the data, processes it and then returns a response, typically in HTML when rendering a full web page.
+
+Figure 1 below shows a simple login page that illustrates the request/response process using web pages in a browser.The days of monolithic applications are coming to a close. Today, more logic is getting distributed throughout the Internet. Mobile devices are becoming more powerful every day, particularly with the onset of 5G network capabilities. The Internet of Things continues to embed itself into the worldwide digital ecosystem. Edge computing puts more computing power on the client side, thus allowing distributed devices to contain intelligence that goes far beyond just presenting data in a UI. Smart devices – phones, cameras, watches, home appliances – are making decisions traditionally found in application logic that resides in a server-side computer.
+
+As client devices become more powerful, they can decide which server-side services they want to use. For example, it’s entirely feasible for a client device to log in to an application domain using any one of some authentication services – Facebook, Google or LinkedIn, for example. Typically such services are represented by APIs.
+
+The real world ramifications are significant, particularly around testing. Modern load testing in a distributed environment is no longer about firing up a bunch of virtual users to exercise web pages. The game has changed. More is required. Load testing in the world of modern, highly distributed applications is all about APIs. Hence, load testing APIs involves a way of thinking that is different from the reasoning that goes into exercising a web page. It’s a different way of doing business.
+
+Allow me to elaborate.
+
+Load Testing APIs: Goodbye HTML, Hello REST
+The way most APIs expose themselves for use by consumers is via REST. REST (Representational State Transfer) is an architecture that uses the essential request/response features of HTTP to send data to systems for processing and transformation. REST is about working with data at a lower level of exchange that does not require the graphical intermediation that a web browser provides.
+
+In traditional web page applications, work is done by inputting data into HTML elements such as text boxes, checkboxes, options, and dropdowns. Then, once data is entered, a user typically clicks a button to send the data onto a URL as an HTTP request. The receiving URL gets the data, processes it and then returns a response, typically in HTML when rendering a full web page.
+
+Figure 1 below shows a simple login page that illustrates the request/response process using web pages in a browser.The days of monolithic applications are coming to a close. Today, more logic is getting distributed throughout the Internet. Mobile devices are becoming more powerful every day, particularly with the onset of 5G network capabilities. The Internet of Things continues to embed itself into the worldwide digital ecosystem. Edge computing puts more computing power on the client side, thus allowing distributed devices to contain intelligence that goes far beyond just presenting data in a UI. Smart devices – phones, cameras, watches, home appliances – are making decisions traditionally found in application logic that resides in a server-side computer.
+
+As client devices become more powerful, they can decide which server-side services they want to use. For example, it’s entirely feasible for a client device to log in to an application domain using any one of some authentication services – Facebook, Google or LinkedIn, for example. Typically such services are represented by APIs.
+
+The real world ramifications are significant, particularly around testing. Modern load testing in a distributed environment is no longer about firing up a bunch of virtual users to exercise web pages. The game has changed. More is required. Load testing in the world of modern, highly distributed applications is all about APIs. Hence, load testing APIs involves a way of thinking that is different from the reasoning that goes into exercising a web page. It’s a different way of doing business.
+
+Allow me to elaborate.
+
+Load Testing APIs: Goodbye HTML, Hello REST
+The way most APIs expose themselves for use by consumers is via REST. REST (Representational State Transfer) is an architecture that uses the essential request/response features of HTTP to send data to systems for processing and transformation. REST is about working with data at a lower level of exchange that does not require the graphical intermediation that a web browser provides.
+
+In traditional web page applications, work is done by inputting data into HTML elements such as text boxes, checkboxes, options, and dropdowns. Then, once data is entered, a user typically clicks a button to send the data onto a URL as an HTTP request. The receiving URL gets the data, processes it and then returns a response, typically in HTML when rendering a full web page.
+
+Figure 1 below shows a simple login page that illustrates the request/response process using web pages in a browser.The days of monolithic applications are coming to a close. Today, more logic is getting distributed throughout the Internet. Mobile devices are becoming more powerful every day, particularly with the onset of 5G network capabilities. The Internet of Things continues to embed itself into the worldwide digital ecosystem. Edge computing puts more computing power on the client side, thus allowing distributed devices to contain intelligence that goes far beyond just presenting data in a UI. Smart devices – phones, cameras, watches, home appliances – are making decisions traditionally found in application logic that resides in a server-side computer.
+
+As client devices become more powerful, they can decide which server-side services they want to use. For example, it’s entirely feasible for a client device to log in to an application domain using any one of some authentication services – Facebook, Google or LinkedIn, for example. Typically such services are represented by APIs.
+
+The real world ramifications are significant, particularly around testing. Modern load testing in a distributed environment is no longer about firing up a bunch of virtual users to exercise web pages. The game has changed. More is required. Load testing in the world of modern, highly distributed applications is all about APIs. Hence, load testing APIs involves a way of thinking that is different from the reasoning that goes into exercising a web page. It’s a different way of doing business.
+
+Allow me to elaborate.
+
+Load Testing APIs: Goodbye HTML, Hello REST
+The way most APIs expose themselves for use by consumers is via REST. REST (Representational State Transfer) is an architecture that uses the essential request/response features of HTTP to send data to systems for processing and transformation. REST is about working with data at a lower level of exchange that does not require the graphical intermediation that a web browser provides.
+
+In traditional web page applications, work is done by inputting data into HTML elements such as text boxes, checkboxes, options, and dropdowns. Then, once data is entered, a user typically clicks a button to send the data onto a URL as an HTTP request. The receiving URL gets the data, processes it and then returns a response, typically in HTML when rendering a full web page.
+
+Figure 1 below shows a simple login page that illustrates the request/response process using web pages in a browser.</p>
+
+<!--- Welcome Section -->
+
+
+<!--- Three Column Section -->
+
+
+<!--- Two Column Section -->
+
+
+	
+
+<!--- Fixed background -->
+
+
+<!--- Emoji Section -->
+
+  
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+</br></br></br></br></br></br></br></br></br>
+<p id="opening">it should scroll to here</p>
+</br></br></br></br></br></br></br></br></br>
+
+<!--- Footer -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <!--- Check out w3newbie Templates & Courses! -->
+
+
+
